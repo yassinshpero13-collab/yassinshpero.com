@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trip registration for Egypt</title>
+    <link rel="stylesheet" href="formstyle.css">
+</head>
+<body>
+    <form action="main.html" method="get">
+        <h1>Prepare your next trip with me</h1>
+        <h2>Please get in touch, I'll get back to get shortly....</h2>
+        <div class="column">
+            <div>
+                <label for="name">Full Name</label>
+                <input type="text" name="name" id="name" required placeholder="Enter Full name">
+            </div>
+             <div>
+                <label for="the-email">Email address</label>
+             <input type="email" name="email" id="the-email" required placeholder="write a valid email" value="abc@gmail.com">
+            </div>
+             <div>
+                <label for="the-phone">Phone Number</label>
+                <input type="tel" name="Phone" id="the-phone" required placeholder="write a valid Phone Number">
+            </div>
+             <div>
+                <label for="gender" >Gender</label>
+                 <div>
+                 <input type="radio" id="male" name="gender" value="male" required>
+                 <label class="inline-input" id="male">Male</label>
+                 </div>
+             <div>
+                <input type="radio" id="female" name="gender" value="female" required >
+                <label class="inline-input" id="female">Female</label>
+             </div>
+             </div>
+             <div>
+                <label for="date">Arrival Date</label>
+                <input type="date" name="date" id="date" >
+             </div>
+             <div>
+                <label for="date">Departure Date</label>
+                <input type="date" name="date" id="date">
+             </div>
+             <div>
+                <label for="file">Profile picture</label>
+                <input type="file" id="file" name="file">
+             </div>
+             <div>
+                <label for="file">Passport</label>
+                <input type="file" id="file" name="file">
+             </div>
+             <div>
+                <label for="file">Visa</label>
+                <input type="file" id="file" name="file">
+             </div>
+             <label for="cities">Which city do you like to travel to?</label>
+             <select name="select" id="select">
+                <option value="Cairo">Cairo</option>
+                <option value="Alexandria">Alexandria</option>
+                <option value="Giza">Giza</option>
+                <option value="Aswan">Aswan</option>
+                <option value="Luxor">Luxor</option>
+                <option value="Hurghada">Hurghada</option>
+                <option value="Marsa Alam">Marsa Alam</option>
+                <option value="Matruh">Matruh</option>
+                <option value="Port Said">Port Said</option>
+                <option value="Faiyum">Faiyum</option>
+             </select>
+             <div>
+                <label for="services">Please check the services that you need</label>
+                <div>
+                    <input type="checkbox" name="airline-tickets" id="airline-tickets">
+                    <label class="airline-tickets" for="services">airline-tickets</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="hotel" id="hotel">
+                    <label class="hotel" for="services">hotel</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="rental-cars" id="rental-cars">
+                    <label class="rental-cars" for="services">rental-cars</label>
+                </div>
+             </div>
+             <input type="submit" value="submit" id="submit" >
+             <input type="reset" value="reset" id="reset">
+        </div>
+    </form>
+</body>
+</html>

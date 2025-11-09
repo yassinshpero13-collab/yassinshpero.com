@@ -1,0 +1,65 @@
+html{
+    background-image: url(pyramids\ registration.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body{
+    background: rgba(255, 255, 255, 0.7);
+    width: 90%;
+    max-width: 780px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+h1, p{
+    text-align: center;
+    margin: auto;
+}
+label{
+    display: block;
+    margin: 1em;
+}
+select, input{
+    display: block;
+    font-size: 15px;
+    padding: 0.3em;
+    width: 80%;
+    background-color: rgb(252, 225, 190);
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+input[type="checkboxes"], input[type="radio"]{
+    display: inline;
+    margin: auto;
+    width: auto;
+}
+.inline-input{
+    display: inline;
+    width: auto;
+}
+select{
+    color: black;
+    background-color: white;
+}
+option{
+    color: indigo;
+}
+input[type= "submit"] {
+    color: rgb(34, 118, 208);
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+input[type= "submit"]:hover {
+    background-color: rgb(34, 118, 208);
+    color: white;
+    transform: scale(1.15);
+}
+input[type= "reset"]:hover {
+    background-color: rgb(167, 29, 29);
+    color: white;
+    transform: scale(1.15);
+}
+input[type= "reset"]{
+    margin-left: 20px;
+}
