@@ -1,4 +1,4 @@
         [[redirects]]
         from = "/*"
-        to = "/main.html"
+        to = "/registrationform.html"
         status = 200
